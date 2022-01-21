@@ -9,7 +9,7 @@ The project is divided into 2 parts: Dataset Creation, and ML Models building an
 In this section I practiced the first three steps in the process of creating a machine learning. Starting with Data Collection and Sensing, and continue with an emphasis on the third stage - Dataset Creation. These steps will be used in understanding and preparing the data for the second part in which I will use the data for training and examining models and comparing them. As part of Dataset Creation, I will show the probabilities (data distribution) of the target variable and other properties, the range of values each variable receives, present graphs showing my findings, and check if the data set is balanced.
 
 <pre>
-Project Database Explanation: 
+Project Database Explanation (Files attached): 
 
 The database contains information about computer games worldwide sales.
 "X_test" - will be used for submission of the final prediction.
@@ -32,7 +32,7 @@ Finally I will train the neural network using the selected configuration, perfor
 I will model SVM and perform Hyperparameter Tuning to find the best configuration, I will show the accuracy percentages of the model selected on the training and validation set, the separating straight equation, and I will understand the straight equation regarding the importance of each feature for classification.
 
 ✔**D. Unsupervised Learning - Clustering -**<br>
-I will run the K-means algorithm and try different K values, I will check different from the previous models you ran and compare the cluster results for different K values that you tested. Find out what number of classes I will choose by the Silhouette Index, and the Davies - Bouldin Index.
+I will run the K-means algorithm and try different K values, I will check different from the previous models you ran and compare the cluster results for different K values that you tested. Find out what number of classes I will choose by the Silhouette measure, and the Davies - Bouldin measure.
 
 ✔**E. Comparison between the models - Evaluation**<br>
 I will compare the performance of the three models (SVM, DT, MLP) and calculate the precision, recall, and F-1 scores for each model in order to examine what is the best model according to these indices, and what my conclusions are from it.
